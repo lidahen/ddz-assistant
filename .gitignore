@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# DouZero 预训练权重（约18MB二进制，需自行下载，见 README）
+models/**/*.ckpt
+
+# 标定中间产物（每台机器各自生成）
+calib/frame.png
+
+# IDE
+.idea/
+.vscode/
